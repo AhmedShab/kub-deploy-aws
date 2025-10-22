@@ -11,6 +11,6 @@ services:
     ports:
       - '8080:3000'
     env_file:
-      - ./env/mongodb.env
+      - ./.env/mongo.env
     environment:
       AUTH_API_ADDRESSS: 'auth:3000'

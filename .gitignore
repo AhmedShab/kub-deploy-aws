@@ -1,2 +1,3 @@
-/kubernetes/secret-yaml
+/kubernetes/users-secret.yaml
 /.env
+private-ecr-driver.yaml
