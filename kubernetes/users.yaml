@@ -68,7 +68,7 @@ spec:
                 secretKeyRef:
                   name: users-secret
                   key: MONGODB_CONNECTION_URI
-            - name: AUTH_API_ADDRESSS
+            - name: AUTH_API_ADDRESS
               value: 'auth-service:3000'
           volumeMounts:
             - name: efs-vol
